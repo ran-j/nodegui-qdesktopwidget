@@ -16,8 +16,10 @@ const desktop = new QDesktopWidget();
 const button = new QPushButton();
 button.setText("Go go go");
 button.addEventListener("clicked", () => {
-  console.log(desktop.availableGeometry())
-  console.log(desktop.screenGeometry())
+  const availableGeometry = desktop.availableGeometry()
+  const screenGeometry = desktop.screenGeometry()
+  console.log(availableGeometry.width() + "x"+ availableGeometry.height())
+  console.log(screenGeometry.width() + "x"+ screenGeometry.height())
   console.log(desktop.screenNumber())
 });
 
