@@ -1,10 +1,28 @@
-# NodeGui example plugin
+# QDesktopWidget
 
-This is an example repo which showcases how to build plugins for NodeGui.
+This is  a wrap of QDesktopWidget for [Nodegui](https://github.com/nodegui/nodegui)
 
 Start with `demo.ts` to understand how it all works.
 
-More details soon.
+## Install
+
+```sh
+    npm install @nodegui/qdesktopwidget
+```
+
+# Usage
+
+```js
+    import { QDesktopWidget } from "./index";
+
+    const desktop = new QDesktopWidget();
+
+    const availableGeometry = desktop.availableGeometry()
+    const screenGeometry = desktop.screenGeometry()
+
+    console.log(availableGeometry.width() + "x"+ availableGeometry.height())
+    console.log(screenGeometry.width() + "x"+ screenGeometry.height())
+    console.log(desktop.screenNumber())
+```
 
 
-Please name your plugin as `nodegui-plugin-<yourpluginname>`

@@ -4,6 +4,7 @@ import {
   FlexLayout,
   QWidget
 } from "@nodegui/nodegui";
+
 import { QDesktopWidget } from "./index";
 
 const win = new QMainWindow();
