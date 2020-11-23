@@ -7,7 +7,7 @@ Start with `demo.ts` to understand how it all works.
 ## Install
 
 ```sh
-    npm install @nodegui/qdesktopwidget
+    npm install @ran-j/qdesktopwidget
 ```
 
 # Usage

@@ -1,5 +1,5 @@
 {
-  "name": "@nodegui/qdesktopwidget",
+  "name": "@ran-j/qdesktopwidget",
   "version": "1.0.0",
   "description": "A sample native plugin example for NodeGUI",
   "main": "dist/index.js",
@@ -24,5 +24,13 @@
     "@nodegui/nodegui": "^0.12.1",
     "@types/node": "^13.1.6",
     "typescript": "^3.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ran-j/nodegui-qdesktopwidget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ran-j/nodegui-qdesktopwidget/issues"
+  },
+  "homepage": "https://github.com/ran-j/nodegui-qdesktopwidget#readme"
 }
