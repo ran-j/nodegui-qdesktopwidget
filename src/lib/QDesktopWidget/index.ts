@@ -13,7 +13,7 @@ export class QDesktopWidget extends NodeWidget<QDesktopWidgetSignals> {
     }
     super(native);
     this.native = native;
-    this.nodeParent = parent;
+    // this.nodeParent = parent;
   }
   availableGeometry(screen: number = -1) : QRect {
     return new QRect(this.native.availableGeometry(screen));

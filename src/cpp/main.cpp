@@ -1,5 +1,5 @@
-#include "src/cpp/QDesktopWidget/qdesktopwidget_wrap.h"
 #include <napi.h>
+#include "QDesktopWidget/qdesktopwidget_wrap.h"
 
 Napi::Object Main(Napi::Env env, Napi::Object exports) {
     QDesktopWidgetWrap::init(env, exports);
